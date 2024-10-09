@@ -1,4 +1,8 @@
-
+#▬▭▬▭▬▭▬▭▬▭▬▭▬▭▬▭[ FULL SCRIPT ]▬▭▬▭▬▭▬▭▬▭▬▭▬▭▬▭#
+# OWNER BY SCRIPT : MR - ASRAFUL
+# CHANNELS  NAME : ASRAFUL TERMUX COMMUNITY 
+# MACK BY : ASRAFUL AHMED 
+#▬▭▬▭▬▭▬▭▬▭▬▭▬▭▬▭[ IMPORT MODULES ]▬▭▬▭▬▭▬▭▬▭▬▭▬▭▬▭#
 import os, sys, re, requests, bs4, time, random, json, string
 from bs4 import BeautifulSoup
 from datetime import datetime
@@ -24,7 +28,7 @@ def inbox(session):
         session = address.replace('FB-', '').replace('is your Facebook confirmation code', '')
         return session
 ugen=[]
-
+#▬▭▬▭▬▭▬▭▬▭▬▭▬▭▬▭[ UA ]▬▭▬▭▬▭▬▭▬▭▬▭▬▭▬▭#
 for x in range(5000):
     aa='Mozilla/5.0 (Linux; Android'
     b=random.choice(['6','7','8','9','10','11','12'])
@@ -40,44 +44,38 @@ for x in range(5000):
     l='Mobile Safari/537.36'
     uaku2=f'{aa} {b}; {c}{d}{e}{f}) {g}{h}.{i}.{j}.{k} {l}'
     ugen.append(uaku2)
-
-sys.stdout.write('\x1b]2;<💚ERROR💚>\x07')
+#▬▭▬▭▬▭▬▭▬▭▬▭▬▭▬▭[ LINEX ]▬▭▬▭▬▭▬▭▬▭▬▭▬▭▬▭#
+sys.stdout.write('\x1b]2;<💚MR.OGGY💚>\x07')
 def clear():os.system('clear');print(logo)
 def linex():print(f'{R}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━')
-
+#▬▭▬▭▬▭▬▭▬▭▬▭▬▭▬▭[ COLOUR ]▬▭▬▭▬▭▬▭▬▭▬▭▬▭▬▭#
 BU= '\033[1;34m';A = '\x1b[1;97m';R = '\x1b[38;5;196m';Y = '\033[1;33m';G = '\x1b[38;5;46m';B = '\x1b[38;5;46m';G1 = '\x1b[38;5;48m';G2 = '\x1b[38;5;47m';G3 = '\x1b[38;5;48m';G4 = '\x1b[38;5;49m';G5 = '\x1b[38;5;50m';X = '\33[1;34m';X1 = '\x1b[38;5;14m';X2 = '\x1b[38;5;123m';X3 = '\x1b[38;5;122m';X4 = '\x1b[38;5;86m';X5 = '\x1b[38;5;121m';S = '\x1b[1;96m';M = '\x1b[38;5;205m'
-
-logo4 =f"""\x1b[1;91m╔━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╗ 
-\x1b[1;91m║██████  ██████  ██████   ██████  ██████      ║
-\x1b[1;91m║██      ██   ██ ██   ██ ██    ██ ██   ██     ║
-\x1b[1;91m║█████   ██████  ██████  ██    ██ ██████      ║
-\x1b[1;91m║██      ██   ██ ██   ██ ██    ██ ██   ██     ║
-\x1b[1;91m║██████  ██   ██ ██   ██  ██████  ██   ██     ║0.1
-\x1b[1;91m╚━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╝ \033[92m
-\x1b[1;92m╔━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╗ 
-\x1b[1;91m[\\]\x1b[1;97m This Tools Decode By Error x saju
-\x1b[1;91m[\\] \x1b[1;97mUpdate by Saju x Error
-\x1b[1;91m[\\] \x1b[1;97mCoder Name > Amer 
-\x1b[1;91m[\\]\x1b[1;97m Tool Type Free
-\x1b[1;91m[\\] \x1b[1;97mTool Varson : 0.1
-\x1b[1;92m╚━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╝"""
-
+#▬▭▬▭▬▭▬▭▬▭▬▭▬▭▬▭[ LOGO ]▬▭▬▭▬▭▬▭▬▭▬▭▬▭▬▭#
+logo4 =f"""{G}  ┏┳┓┏━┓     {G}┏━┓┏━┓┏━┓┏━┓┏━╸╻ ╻╻
+{G}  ┃┃┃┣┳┛ {R}╺━{G}  ┣━┫┗━┓┣┳┛┣━┫┣╸ ┃ ┃┃
+{G}  ╹ ╹╹┗╸     {G}╹ ╹┗━┛╹┗╸╹ ╹╹  ┗━┛┗━╸
+{R}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+{A}[{R}={A}] {G}FACEBOOK   {R} >>   {A}AHMED ASHRAFUL
+{A}[{R}={A}] {G}STATUS      {R}>>   {A}FB AUTO CRACK
+{A}[{R}={A}] {G}VERSION   {R}  >>   {A}0.1
+{R}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"""
+#▬▭▬▭▬▭▬▭▬▭▬▭▬▭▬▭[ NAME ]▬▭▬▭▬▭▬▭▬▭▬▭▬▭▬▭#
 boy = ["Ashraful ahmed","Arif Rahman","Asif Ahmed","Bashir Chowdhury","Binod Sarker","Rafiq Miah","Mohammad Khan","Mahmud Ali","Mahin Islam","Masud Hossain","Mustafa Uddin","Mohiuddin Bhuiyan","Noor Khan","Nasir Ahmed","Nurul Haque","Rajib Siddique","Rezaul Islam","Riyad Rahman","Sabbir Mia","Sadik Chowdhury","Samsuddin Mollah","Selim Sarker","Shahid Hossain","Shafik Ahmed","Shams Uddin","Shahin Alam","Tanveer Khan","Touhid Hossain","Iqbal Rahman","Jafar Mia","Jewel Siddique","Ziaur Islam"]
 girl = ["Ayesha Sultana","Momena Begum","Rokeya Sultana","Fatema Anwar","Sultana Kamal","Jahanara Alam","Ruma Akter","Farzana Yasmin","Salma Begum","Nusrat Jahan","Shaheen Akter","Sabrina Sultana","Purnima Roy","Shirin Akter","Jannatul Ferdous","Mousumi Parveen","Rina Begum","Laila Islam","Rubina Sultana","Nigar Sultana","Shamima Nasrin","Dilruba Sultana","Khatun Begum","Fariha Rahman","Kazi Rupa","Mariam Begum","Selina Akter","Nabila Rahman","Sadia Islam","Rumana Akter","Sumi Akter","Hena Sultana"]
 ok = []
 cp = []
-
+#▬▭▬▭▬▭▬▭▬▭▬▭▬▭▬▭[ MENU ]▬▭▬▭▬▭▬▭▬▭▬▭▬▭▬▭#
 def menu():
     os.system('clear')
     print (logo4)
     print (f'{A}[{R}1{A}] {G}AUTO CREATE ')
-    print (f'{A}[{R}2{A}] {G}CONTACT ADMIN ')
+    print (f'{A}[{R}=(2{A}] {G}CONTACT ADMIN ')
     linex()
     sel = input(f'{A}[{R}={A}] {G}INPUT {R}>>{A} ')
     if sel in['1', '01']:
         create().start()
     elif sel in ['2', '02']:
-        os.system('xdg-open https://www.facebook.com/ariyan.saju.39')
+        os.system('xdg-open https://www.facebook.com/oggyfire')
     else:
         print (f'{A}[{R}={A}] {G}SELECT VALID OPTION')
         time.sleep(3)
@@ -102,7 +100,7 @@ class create:
             self.gender.append('girl')
         else:
             self.gender.append('boy')
-
+#▬▭▬▭▬▭▬▭▬▭▬▭▬▭▬▭[ EXAMPLE ]▬▭▬▭▬▭▬▭▬▭▬▭▬▭▬▭#
         os.system('clear')
         print (logo4)
         print(f'{A}[{R}={A}] {G}EXAMPLE {A}:{G3} 3000{A}/{G3}5000{A}/{G3}10000{A}/{G3}99999');linex()
@@ -110,7 +108,7 @@ class create:
         os.system('clear')
         print (logo4)
         agent = random.choice(ugen)
-
+#▬▭▬▭▬▭▬▭▬▭▬▭▬▭▬▭[ FULL METHOD ]▬▭▬▭▬▭▬▭▬▭▬▭▬▭▬▭#        
         headers = {
             'authority': 'm.facebook.com',
             'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
@@ -146,7 +144,7 @@ class create:
         OO = '\033[0;97m'
         for x in range(lim):
             self.loop += 1
-            sys.stdout.write(f'\r\r{A}[{G}ERROR-AUTO{A}] >> {A}[{R}{self.loop}{A}]{R} >> {A}[{G}OK{A}•{G}{len(ok)}{A}]')
+            sys.stdout.write(f'\r\r{A}[{G}ASRAFUL-AUTO{A}] >> {A}[{R}{self.loop}{A}]{R} >> {A}[{G}OK{A}•{G}{len(ok)}{A}]')
             sys.stdout.flush()
             if 'boy' in self.gender:
                 name = random.choice(boy).split(' ')
@@ -254,21 +252,21 @@ class create:
                                 else:
                                     coki = (";").join([ "%s=%s" % (key, value) for key, value in self.ses.cookies.get_dict().items() ])
                                     cok = self.ses.cookies.get_dict()
-                                    print(f'\r\x1b[38;5;46m{A}[{G}ERROR-OK💉{A}]{G} '+cok['c_user']+' | '+passw+'')
+                                    print(f'\r\x1b[38;5;46m{A}[{G}ASRAFUL-OK💉{A}]{G} '+cok['c_user']+' | '+passw+'')
                                     print(f'\r{R}[{G}COOKIE{R}]{G}━{R}>{BU} '+coki)
                                     linex()
-                                    open("/sdcard/ERROR-AUTO-COOKIE.txt","a").write(cok['c_user']+"|"+passw+"|"+coki+"\n")
-                                    open('/sdcard/ERROR-AUTO-UID.txt','a').write(cok['c_user']+'|'+passw+'\n')
+                                    open("/sdcard/ASRAFUL-AUTO-COOKIE.txt","a").write(cok['c_user']+"|"+passw+"|"+coki+"\n")
+                                    open('/sdcard/ASRAFUL-AUTO-UID.txt','a').write(cok['c_user']+'|'+passw+'\n')
                                     ok.append(email+passw)
             except requests.exceptions.ConnectionError:
                 pass
             except Exception as e:
                 pass
-
+#▬▭▬▭▬▭▬▭▬▭▬▭▬▭▬▭[ CRACKED ]▬▭▬▭▬▭▬▭▬▭▬▭▬▭▬▭#                
         print ('')
         linex()
         print (f'{A}[{R}={A}] {G}TOTAL OK ID {R}:{G} '+str(len(ok)))
         print (f'{A}[{R}={A}] {G}TOTAL CP ID {R}: '+str(len(cp)))
         linex()
-
+#▬▭▬▭▬▭▬▭▬▭▬▭▬▭▬▭[ EXIT ]▬▭▬▭▬▭▬▭▬▭▬▭▬▭▬▭#        
 menu()
